@@ -25,10 +25,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-hiq6*eitd*#^-6z$4-+kx3rlfzi1hny0m2h^)6wx-9hlz&whmg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
-
+ALLOWED_HOSTS = [
+    'budget-tracker-be-1.onrender.com',  # Backend hosted on Render
+    'personal-budget-sigma-nine.vercel.app',  # Frontend hosted on Vercel (update to your specific frontend domain)
+    'personal-budget-siddappanor-rahuls-projects.vercel.app',  # Another possible Vercel frontend domain
+]
 AUTH_USER_MODEL = 'users.User'
 
 # Application definition
