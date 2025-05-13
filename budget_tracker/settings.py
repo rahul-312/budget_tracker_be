@@ -29,8 +29,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     'budget-tracker-be-1.onrender.com',  # Backend hosted on Render
-    'personal-budget-sigma-nine.vercel.app',  # Frontend hosted on Vercel (update to your specific frontend domain)
-    'personal-budget-siddappanor-rahuls-projects.vercel.app',  # Another possible Vercel frontend domain
+    'personal-budget-liart.vercel.app',  # Frontend hosted on Vercel (update to your specific frontend domain)
+    'personal-budget-git-main-siddappanor-rahuls-projects.vercel.app',  # Another possible Vercel frontend domain
 ]
 AUTH_USER_MODEL = 'users.User'
 
@@ -165,7 +165,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'https://personal-budget-sigma-nine.vercel.app'
+    'https://personal-budget-liart.vercel.app'
     # 'https://yourdomain.com',
 ]
 
